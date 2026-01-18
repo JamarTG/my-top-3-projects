@@ -89,6 +89,38 @@ export const parseGames = async (response: Response) => {
 };
 ```
 
+## Arcade Car Game (2022)
 
+<img width="1582" height="877" alt="image" src="https://github.com/user-attachments/assets/fe80dae5-cc31-481d-b2ce-b70d9a794193" />
 
+A fast-paced browser game where the player controls a car, avoids obstacles and tries to survive as long as possible
 
+**Favorite Piece of Code (Experiment Start):** This is beginners code but I like this snippet because the car game was birthed from this idea I had to use 2 roads and swap them at the right time repeatedly to create the illusion of a moving road. 
+
+```javascript
+const roadAnimation = () => {
+  canvasContext.drawImage(
+    frontRoad.getImage(),
+    frontRoad.getXCoordinate(),
+    frontRoad.getYCoordinate(),
+    canvas.width,
+    canvas.height
+  );
+  canvasContext.drawImage(
+    backRoad.getImage(),
+    backRoad.getXCoordinate(),
+    backRoad.getYCoordinate(),
+    canvas.width,
+    canvas.height
+  );
+
+  frontRoad.updateYCoordinate();
+  backRoad.updateYCoordinate();
+
+  if (frontRoad.getYCoordinate() >= canvas.height) {
+    frontRoad.resetYCoordinate(true);
+    backRoad.resetYCoordinate(false);
+  }
+};
+
+```
