@@ -89,7 +89,7 @@ export const parseGames = async (response: Response) => {
 };
 ```
 
-## Arcade Car Game (2022)
+## Arcade Car Game (2022) - BEGINNER PROJECT WHICH STARTED MY LOVE FOR THE WEB
 
 <img width="1582" height="877" alt="image" src="https://github.com/user-attachments/assets/fe80dae5-cc31-481d-b2ce-b70d9a794193" />
 
@@ -124,4 +124,5 @@ const roadAnimation = () => {
 };
 
 ```
+
 
