@@ -39,8 +39,7 @@ const handlePrevious = () => {
 
 ## LITRAINER (2024) - OPEN SOURCE PASSION PROJECT THAT GAVE ME MY MOST LOVED AND IMPACTFUL PROJECT
 
-<img width="1910" height="913" alt="image" src="https://github.com/user-attachments/assets/c4daaf8b-b126-48f3-86c1-ca3d329e5d73" />
-
+<img width="1891" height="887" alt="image" src="https://github.com/user-attachments/assets/50972614-500f-4f32-b457-3e11b6e7a70f" />
 
 A ReactJS app that uses Stockfish and the Lichess API to turn mistakes from online chess games into personalized learning puzzles.  
 
@@ -89,6 +88,7 @@ export const parseGames = async (response: Response) => {
   return { evaluations, games: parsedGames };
 };
 ```
+
 
 
 
